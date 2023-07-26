@@ -12,7 +12,7 @@ class Inform extends Component {
             {this.context.token === '' ?
               <div><Link to='/login'>Đăng nhập</Link> | <Link to='/signup'>Đăng kí</Link> | <Link to='/active'>Kích hoạt tài khoản</Link> | </div>
               :
-              <div>Xin chào <b>{this.context.customer.name}</b> | <Link to='/home' onClick={() => this.lnkLogoutClick()}>Đăng xuất</Link> | <Link to='/myprofile'>Thông tin</Link> | <Link to='/myorders'>Đơn hàng</Link></div>
+              <div>Xin chào <b>{this.context.customer.name}</b> | <Link to='/home' onClick={() => this.lnkLogoutClick()}>Đăng xuất</Link> | <Link to='/myprofile'>Thông tin</Link> | <Link to='/myorders'>Đơn hàng |</Link></div>
             }
           </div>
         <div className="float-right">
