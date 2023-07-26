@@ -16,7 +16,7 @@ class Inform extends Component {
             }
           </div>
         <div className="float-right">
-            <Link to='/mycart'> Giỏ hàng</Link> Số lượng <b>{this.context.mycart.length}</b> Sản phẩm
+            <Link to='/mycart'>Giỏ hàng</Link> Số lượng <b>{this.context.mycart.length}</b> Sản phẩm
           </div>
             <div className="float-clear" />
           </div>
